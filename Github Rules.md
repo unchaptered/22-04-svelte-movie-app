@@ -1,5 +1,7 @@
 # Github Rules
 
+This document is writtend by _2022-04-01_.
+
 ## Branch List
 
 | name | purpose |
