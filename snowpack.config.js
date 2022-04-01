@@ -31,8 +31,8 @@ module.exports = {
                 plugins: removeConsole()
             }
         }],
+        '@snowpack/plugin-sass',
         '@snowpack/plugin-dotenv',
-        '@snowpack/plugin-optimize',
     ],
     alias: {
         '~': './src'
