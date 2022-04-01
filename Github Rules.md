@@ -50,6 +50,7 @@ git restore --staged // Resotre staged files
 git checkout main
 git merge branch_name
 git branch -d branch_name
+git push origin branch_name
 ```
 [Merge Seperated Branches](https://backlog.com/git-tutorial/kr/stepup/stepup2_4.html#:~:text=%EB%B8%8C%EB%9E%9C%EC%B9%98%20%EB%B3%91%ED%95%A9%EC%9D%80%20merge%20%EB%AA%85%EB%A0%B9%EC%96%B4,%EB%B8%8C%EB%9E%9C%EC%B9%98%EC%97%90%20%EC%9C%84%EC%B9%98%ED%95%98%EA%B2%8C%20%EB%90%A9%EB%8B%88%EB%8B%A4.)
 
