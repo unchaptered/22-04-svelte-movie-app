@@ -14,6 +14,7 @@
 
 1. Branches
 2. Naming
+3. Errors
 
 ### Branches
 
@@ -60,3 +61,56 @@ git merge branch_name -m "commit messages"
 | DEL function | Typed detials about function with updated date |
 | FIX function | Typed detials about function with updated date |
 | Ver.1.0.0 | Version means release version for netlify |
+
+
+### Errors
+
+I got 1 error case
+
+1. src refspec origin does not match any
+
+#### src refspec origin does not match any
+
+I got 1 error case
+
+1. push new branches
+
+
+##### Push new branches
+
+Check right these
+
+1. Command and Error
+2. Cause to Solution
+
+###### Command and Error
+
+```cmd
+git branch develope
+git branch -v
+git branch -r
+git push -u origin develope
+
+error: src refspec origin does not match any
+error: failed to push some refs to 'https://github.com/unchaptered/22-04-svelte-movie-app.git'
+```
+
+###### Cause to Solution
+
+If you want to push new_branch to origin(repo), You need to set HEAD to new_branch.
+
+In upeer case, your HEAD on the **main**.
+
+So you can't push new_branch to origin(repo).
+
+Type right these!
+
+```cmd
+git branch develope
+git branch -v
+git branch -r
+git switch develope
+git push -u origin develope
+git branch -v
+git branch -r
+```
